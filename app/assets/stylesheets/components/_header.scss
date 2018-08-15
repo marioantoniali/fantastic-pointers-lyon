@@ -5,3 +5,7 @@
   width: 100%; /* Full width */
   transition: top 0.3s; /* Transition effect when sliding down (and up) */
 }
+
+.navbar-brand img {
+  max-height: 35px;
+}
