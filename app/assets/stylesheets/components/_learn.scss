@@ -1,0 +1,29 @@
+.titre-learn {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.container-learn {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.learn-column-1 {
+  display: inline-block;
+  width: 25%;
+  margin: 0 auto;
+  
+}
+
+.learn-column-2 {
+  display: inline-block;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.learn-column-1 img {
+  max-width: 100%;
+  display: block;
+}
