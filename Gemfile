@@ -13,6 +13,14 @@ end
 group :production do
   gem 'pg'
 end
+
+# Pour cacher les clés
+gem 'dotenv-rails'
+
+# mailchimp
+gem 'gibbon'
+
+
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
