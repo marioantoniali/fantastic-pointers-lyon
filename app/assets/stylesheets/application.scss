@@ -15,10 +15,12 @@
  * Do not use *= require in Sass or your other stylesheets will not be able to access the Bootstrap mixins and variables.
  */
 @import "bootstrap";
+@import "font-awesome";
 @import "components/header";
 @import "components/banner";
 @import "components/intro";
 @import "components/learn";
+@import "components/newsletter";
 
 /* --- Import Google Fonts stylesheets --- */
 @import url("http://fonts.googleapis.com/ css?family=Montserrat:300");
