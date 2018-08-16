@@ -35,10 +35,14 @@ $ rails server
 ```
 ├── app
 │   ├── assets
-|	│      └── stylesheets
-│   │            ├── application_girl.scss
-│   │            ├── application_lyon.scss
-│   │            └── application.scss	
+│   │   ├── config
+│   │   │   └── manifest.js
+│   │   ├── images
+│   │   ├── javascripts
+│   │   └── stylesheets
+│   │       ├── application_girl.scss
+│   │       ├── application_lyon.scss
+│   │       └── application.scss
 │   ├── channels
 │   ├── controllers
 │   ├── helpers
