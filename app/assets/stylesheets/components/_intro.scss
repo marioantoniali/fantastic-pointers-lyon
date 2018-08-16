@@ -1,9 +1,30 @@
+.container-intro
+{
+  display: flex;
+  justify-content: space-between;
+
+}
+
 .intro
 {
-	margin-top:50px;
-  text-align: center;
+ margin-top:50px;
+
   padding-bottom: 25px; 
 }
+
+.intro h2
+{
+	text-align: center;
+}
+
+.intro h3
+{  
+display:inline-block;
+margin-left:20px;
+margin-top: 25px;
+}
+
+
 
 .illustration
 {
@@ -19,8 +40,8 @@
 
 .content
 {
-	vertical-align: middle;
-	width:50%;
 	display:inline-block;
-	margin: 0 auto;
+	vertical-align: middle;
+	margin-left: 25px;
+	margin-top: 25px;
 }
