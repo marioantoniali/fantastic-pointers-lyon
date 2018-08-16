@@ -1,47 +1,51 @@
 .container-intro
 {
   display: flex;
+  
   justify-content: space-between;
+  margin-top: 50px;
 
 }
 
-.intro
-{
- margin-top:50px;
 
-  padding-bottom: 25px; 
-}
 
 .intro h2
 {
 	text-align: center;
 }
 
+
 .intro h3
 {  
 display:inline-block;
-margin-left:20px;
-margin-top: 25px;
+
 }
 
 
 
 .illustration
 {
-	margin-top:50px;	
-	width:40%;
+		
+	width:45%;
 	display:inline-block;
+	vertical-align: middle;
+
+
     
  }
  .illustration img
  {
+ 	margin-top: 15px;
  	width:100%;
+ 	 
  }
 
 .content
 {
+	margin-top: 25px;
 	display:inline-block;
 	vertical-align: middle;
-	margin-left: 25px;
-	margin-top: 25px;
-}
+	padding-left: 45px;
+    margin: 0 auto;
+    padding-bottom: 25px;
+  }
