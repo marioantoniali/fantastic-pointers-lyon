@@ -10,21 +10,21 @@ class Scrapper
 
   def perform
     scrap
-    save
   end
 
-  def scrap
-    page = Nokogiri::HTML(open(@address))
-    mail = page.css('a').map { |email|email.text }
-    for m in mail
-      if m.include? '@'
-        puts m
+  private
+    def scrap
+      datas = Nokogiri::HTML(open(@address)).css('div#p_p_id_FilteredList_WAR_FilteredListportlet_INSTANCE_dTN7_ tr')
+      for tr in datas
+        lines   = tr.css('td a')
+        name    = lines[0].text rescue ""
+        website = lines[1].text rescue ""
+        mail    = lines[2].text rescue ""
+        save(name,website,mail)
       end
     end
-  end
 
-  def save
-  end
-
-
+    def save(name,website,mail)
+      Recipient.create(name: name, website: website, mail: mail)
+    end
 end
