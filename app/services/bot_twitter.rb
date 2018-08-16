@@ -22,16 +22,21 @@ class BotTwitter
 
         if @client.update("@#{tweet.user.screen_name} Vous recherchez une formation gratuite dans les métiers du numérique ? Rejoignez la team @the_hacking_pro ‏pour intégrer la formation de développeur web ! Inscriptions/informations bientôt terminées  ⏩ https://fantastic-pointers.herokuapp.com/",in_reply_to_status_id: id)
           puts "Tweeté à @#{tweet.user.screen_name}"
+          save(@tweet.user.screen_name)
         end
         @client.favorite(id)#like des tweets recherchés
 
-   end     
+   end
  end
-
 
   def perform
     log_in_twitter
     send_tweets
+  end
+
+  private
+  def save(destinataire)
+    Tweet.create(destinataire)
   end
 
 end
