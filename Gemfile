@@ -14,6 +14,9 @@ group :production do
   gem 'pg'
 end
 
+# Pour cacher les clés
+gem 'dotenv-rails'
+
 # mailchimp
 gem 'gibbon'
 
