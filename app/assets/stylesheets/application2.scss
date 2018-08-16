@@ -26,25 +26,22 @@
 
 
 /* --- Import Google Fonts stylesheets --- */
-@import url("https://fonts.googleapis.com/ css?family=Montserrat:300|Dosis");
-@import url("https://use.typekit.net/aqe4lkg.css");
+@import url("http://fonts.googleapis.com/ css?family=Montserrat:300|Dosis");
 
 /* --- Fonts --- */
 body {
-  font-family: "freight-sans-pro";
-  color: rgb(255, 255, 255);
-  background-color: #343A40;
-  font-size: 18px;
+font-family: "Montserrat", "Helvetica", "sans-serif";
+color: rgb(255, 255, 255);
+background-color: #343A40;
 }
 
 h1, h2, h3 {
-  font-family: "omnes-pro";
+font-family: "Dosis", "sans-serif";
 }
 
 h3 {
   font-size: 26px;
-  color: rgb(145, 164, 184);
-  
+  font-family: "Dosis", "sans-serif";
 }
 
 #monBouton {
