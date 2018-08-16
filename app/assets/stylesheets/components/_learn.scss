@@ -1,3 +1,27 @@
+@media all and (max-width:640px) {
+  .container-learn {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    flex-wrap: wrap;
+  }
+  
+  .learn-column-1 {
+    width: 25%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .learn-column-2 {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+}
+
 .titre-learn {
   padding-top: 50px;
   text-align: center;
