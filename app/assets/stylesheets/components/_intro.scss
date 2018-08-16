@@ -1,7 +1,7 @@
 .container-intro
 {
   display: flex;
-  
+
   justify-content: space-between;
   margin-top: 50px;
 
@@ -16,7 +16,7 @@
 
 
 .intro h3
-{  
+{
 display:inline-block;
 
 }
@@ -25,30 +25,30 @@ display:inline-block;
 
 .illustration
 {
-		
+
 	width:40%;
 	display:inline-block;
 	vertical-align: middle;
 
 
-    
+
  }
  .illustration img
  {
  	margin-top: 10px;
  	width:100%;
- 	 
+
  }
 
 .content
 {
-	margin-top: 25px;
+	margin-top: 50px;
 	display:inline-block;
 	vertical-align: middle;
 	padding-left: 45px;
-    margin: 0 auto;
-    padding-bottom: 25px;
-    width: 50%;
-    text-align:justify;
-    text-justify: auto;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  width: 50%;
+  text-align:justify;
+  text-justify: auto;
   }
