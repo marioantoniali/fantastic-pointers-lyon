@@ -11,3 +11,17 @@
 	align-items: center;
 	text-align: center;
 }
+
+.jumbotron2 {
+	z-index: -1;
+  min-height: 100vh;
+	background-image: linear-gradient(135deg, rgba(20,19,36,1) 0%, rgba(60,30,38,0.3477766106442577) 68%, rgba(126,78,173,0.47102591036414565) 100%), image-url('lyon.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+	display :flex;
+	align-content: center;
+	justify-items: center;
+	align-items: center;
+	text-align: center;
+}
