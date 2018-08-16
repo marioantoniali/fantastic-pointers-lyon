@@ -14,46 +14,49 @@
  * Use @import to import SASS files
  * Do not use *= require in Sass or your other stylesheets will not be able to access the Bootstrap mixins and variables.
  */
-@import "bootstrap";
-@import "font-awesome";
-@import "components-lyon/header";
-@import "components-lyon/banner";
-@import "components-lyon/intro";
-@import "components-lyon/learn";
-@import "components-lyon/card";
-@import "components-lyon/newsletter";
-@import "components-lyon/footer";
-
-
-/* --- Import Google Fonts stylesheets --- */
-@import url("http://fonts.googleapis.com/ css?family=Montserrat:300|Dosis");
-
-/* --- Fonts --- */
-body {
-font-family: "Montserrat", "Helvetica", "sans-serif";
-color: rgb(255, 255, 255);
-background-color: #343A40;
-}
-
-h1, h2, h3 {
-font-family: "Dosis", "sans-serif";
-}
-
-h3 {
-  font-size: 26px;
-  font-family: "Dosis", "sans-serif";
-}
-
-#monBouton {
-  font-size: 40px;
-  color: white;
-  background:url(arrow.png) no-repeat;
-  background-repeat:no-repeat;
-  border: none;
-  cursor:pointer;
-  overflow: hidden;
-  outline:none;
-  position: fixed;
-  top: 90%;
-  left: 95%;
-}
+ @import "bootstrap";
+ @import "font-awesome";
+ @import "components-lyon/header";
+ @import "components-lyon/banner";
+ @import "components-lyon/intro";
+ @import "components-lyon/learn";
+ @import "components-lyon/card";
+ @import "components-lyon/newsletter";
+ @import "components-lyon/footer";
+ 
+ 
+ /* --- Import Google Fonts stylesheets --- */
+ @import url("https://use.typekit.net/aqe4lkg.css");
+ 
+ /* --- Fonts --- */
+ body {
+   font-family: "freight-sans-pro";
+   color: rgb(41, 41, 41);
+   background-color: rgb(255, 255, 255);
+   font-size: 18px;
+ }
+ 
+ h1, h2, h3 {
+   font-family: "omnes-pro";
+ }
+ 
+ h3 {
+   font-size: 26px;
+   color: rgb(52, 95, 189);
+   
+ }
+ 
+ #monBouton {
+   font-size: 40px;
+   color: white;
+   background-color: transparent;
+   background-repeat:no-repeat;
+   border: none;
+   cursor:pointer;
+   overflow: hidden;
+   outline:none;
+   position: fixed;
+   top: 90%;
+   left: 95%;
+ }
+ 
