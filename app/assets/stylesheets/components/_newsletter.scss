@@ -34,10 +34,3 @@
 p {
   padding-top: 15px
 }
-
-@media only screen and (max-width: 575px) {
-    /* For mobile phones: */
-    [class*="input-group"] {
-    	width: 100%;
-    }
-}

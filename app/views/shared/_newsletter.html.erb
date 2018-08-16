@@ -1,21 +1,29 @@
 <div class="container newsletter">
-    <div class="title-section">
-        <h2>Inscrivez-vous maintenant</h2>
-        <p>Une newsletter bimensuelle pour se tenir au courant de l'actu THP</p>
+  <div class="row">
+    <div class="col-md">
+      <div class="title-section">
+          <h2>Inscrivez-vous maintenant</h2>
+          <p>Une newsletter bimensuelle pour se tenir au courant de l'actu THP</p>
+      </div>
     </div>
+  </div>
 
-    <form id="subscribeform" class="subscribe-form mailchimp" novalidate="true" action="subscribe" method="post">
+  <div class="row">
+    <div class="col-md">
+      <form id="subscribeform" class="subscribe-form mailchimp" novalidate="true" action="subscribe" method="post">
         <div class="input-group">
-            <!-- Input de l'email -->
-            <input id="subscriber-email" class="form-control" name="email" placeholder="Adresse e-mail..." type="email" />
-            <!-- Boutton d'inscription -->
-            <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+          <!-- Input de l'email -->
+          <input id="subscriber-email" class="form-control" name="email" placeholder="Adresse e-mail..." type="email" />
+          <!-- Boutton d'inscription -->
+          <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
 
-            <span class="input-group-btn">
-                <button id="subscribe-button" class="btn btn-primary btn-lg standard-button" type="submit">Go!</button>
-            </span>
+          <span class="input-group-btn">
+            <button id="subscribe-button" class="btn btn-primary btn-lg standard-button" type="submit">Go!</button>
+          </span>
         </div>
-          <!-- Fin groupe input -->
-    </form>
-  <!-- Fin du container -->
+        <!-- Fin groupe input -->
+       </form>
+    </div>
+  </div>
 </div>
+<!-- Fin du container -->
