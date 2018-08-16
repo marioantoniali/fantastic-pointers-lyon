@@ -26,7 +26,7 @@ display:inline-block;
 .illustration
 {
 		
-	width:45%;
+	width:40%;
 	display:inline-block;
 	vertical-align: middle;
 
@@ -35,7 +35,7 @@ display:inline-block;
  }
  .illustration img
  {
- 	margin-top: 15px;
+ 	margin-top: 20px;
  	width:100%;
  	 
  }
@@ -48,4 +48,7 @@ display:inline-block;
 	padding-left: 45px;
     margin: 0 auto;
     padding-bottom: 25px;
+    width: 50%;
+    text-align:justify;
+    text-justify: auto;
   }
