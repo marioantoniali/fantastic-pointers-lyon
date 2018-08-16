@@ -21,13 +21,16 @@
 @import "components/intro";
 @import "components/learn";
 @import "components/card";
+@import "components/newsletter";
+@import "components/footer";
+
 
 /* --- Import Google Fonts stylesheets --- */
 @import url("http://fonts.googleapis.com/ css?family=Montserrat:300");
 
-/* --- Fonts --- */ 
+/* --- Fonts --- */
 body {
-font-family: "Montserrat", "Helvetica", "sans-serif"; 
+font-family: "Montserrat", "Helvetica", "sans-serif";
 color: rgb(255, 255, 255);
 background-color: #343A40;
 }

@@ -1,26 +1,51 @@
-.intro
+.container-intro
 {
-	margin-top:50px;
-  text-align: center;
-  padding-bottom: 25px; 
+  display: flex;
+  
+  justify-content: space-between;
+  margin-top: 50px;
+
 }
+
+
+
+.intro h2
+{
+	text-align: center;
+}
+
+
+.intro h3
+{  
+display:inline-block;
+
+}
+
+
 
 .illustration
 {
-	margin-top:50px;	
-	width:40%;
+		
+	width:45%;
 	display:inline-block;
+	vertical-align: middle;
+
+
     
  }
  .illustration img
  {
+ 	margin-top: 15px;
  	width:100%;
+ 	 
  }
 
 .content
 {
-	vertical-align: middle;
-	width:50%;
+	margin-top: 25px;
 	display:inline-block;
-	margin: 0 auto;
-}
+	vertical-align: middle;
+	padding-left: 45px;
+    margin: 0 auto;
+    padding-bottom: 25px;
+  }
