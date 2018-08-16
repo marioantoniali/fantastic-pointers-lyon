@@ -8,7 +8,7 @@
   padding-top: 50px;
   margin-left: auto;
   margin-right: auto;
-  width: 500px;
+  width: 45%;
 }
 
 // Style barre saisie et bouton
@@ -36,9 +36,9 @@ p {
   padding-top: 15px
 }
 
-@media only screen and (min-width: 500px) {
-
-  [class*="form-control"] {
-    width: 60%;
+@media only screen and (max-width: 575px) {
+  // For mobile phone
+  #subscribeform {
+    width: 100%;
   }
 }
