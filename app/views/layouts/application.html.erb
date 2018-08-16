@@ -6,8 +6,18 @@
     <%= csp_meta_tag %>
     <%= favicon_link_tag "favthp.jpg" %>
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <% if params['role'] == 'girl'%>
+      <%= stylesheet_link_tag    'application_girl', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <% elsif params['role'] == 'lyon' %>
+      <%= stylesheet_link_tag    'application_lyon', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <% else %>
+      <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <% end %>
+
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <!-- Global site tag (gtag.js) - Google Analytics -->
