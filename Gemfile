@@ -20,6 +20,8 @@ gem 'dotenv-rails'
 # mailchimp
 gem 'gibbon'
 
+#bot twitter
+gem 'twitter'
 
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
