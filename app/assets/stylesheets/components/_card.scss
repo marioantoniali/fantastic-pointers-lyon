@@ -1,0 +1,41 @@
+.one-card {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.one-card h2 {
+	text-align: center;
+	padding-bottom: 50px;	
+}
+
+.image-model {
+	margin: 0 auto;
+	margin-top: -50px;
+	border-radius: 100px;
+	height: 100px;
+	width: 100px;
+	display: block;
+	text-align: center;
+	box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.3)
+	
+}
+
+.card-text {
+	color: black;
+	text-align: center;
+}
+
+.card-title {
+	color: black;
+	text-align: center;
+}
+
+.card-text text-muted {
+	text-align: center;
+}
+
+.card-deck {
+	padding-bottom: 25px;
+	display: flex;
+	flex-wrap: wrap;
+}
