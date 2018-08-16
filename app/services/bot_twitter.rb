@@ -1,19 +1,15 @@
 require 'twitter'
-require 'dotenv'
-
-Dotenv.load
 
 class BotTwitter
 
   def log_in_twitter
     @client = Twitter::REST::Client.new do |config|
-      config.consumer_key        = ENV['TWITTER_API_KEY']
+           config.consumer_key        = ENV['TWITTER_API_KEY']
            config.consumer_secret     = ENV['TWITTER_API_SECRET_KEY']
            config.access_token        = ENV['TWITTER_TOKEN']
            config.access_token_secret = ENV['TWITTER_TOKEN_SECRET']
     end
   end
-
 
 
   def send_tweets#envoi de tweets aux pseudos trouvés ci dessus
