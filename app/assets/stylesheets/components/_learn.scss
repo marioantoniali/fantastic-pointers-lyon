@@ -1,5 +1,5 @@
 .titre-learn {
-  margin-top: 50px;
+  padding-top: 25px;
   text-align: center;
 }
 
@@ -7,6 +7,7 @@
   margin-top: 50px;
   display: flex;
   justify-content: space-between;
+  padding-bottom: 25px;
 }
 
 .learn-column-1 {
@@ -23,7 +24,11 @@
   text-align: center;
 }
 
-.learn-column-1 img {
+.learn-column-2 img {
   max-width: 100%;
   display: block;
+}
+
+.fondlearn {
+  background-color: #262c33;
 }
