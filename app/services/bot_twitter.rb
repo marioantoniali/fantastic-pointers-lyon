@@ -7,10 +7,10 @@ class BotTwitter
 
   def log_in_twitter
     @client = Twitter::REST::Client.new do |config|
-      config.consumer_key        = "MLPVeZ2PXVhniBJWc73uyFGeG"
-      config.consumer_secret     = "TQrTJxWoAkMI7nnFzuUeQ6zlL7iKqe3Q0JEYYEoyVS5ypniFA5"
-      config.access_token        = "532067033-oQO6AKazhLkAaxXzfd2vPDKg7n5uWgRoKZQpA7KD"
-      config.access_token_secret = "zzaNNuREbiECBfrcr34UY1eFSwoKxUsbpYI1aNwFa9ilJ"
+      config.consumer_key        = ENV['TWITTER_API_KEY']
+           config.consumer_secret     = ENV['TWITTER_API_SECRET_KEY']
+           config.access_token        = ENV['TWITTER_TOKEN']
+           config.access_token_secret = ENV['TWITTER_TOKEN_SECRET']
     end
   end
 
