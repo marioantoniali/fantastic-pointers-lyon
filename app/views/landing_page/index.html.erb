@@ -7,6 +7,8 @@
         <%= render 'shared/banner' %>
     </section>
 
+
+
     <section id="section2" class="home">
         <%= render 'shared/intro' %>
     </section>
@@ -17,12 +19,16 @@
         </div>
     </section>
 
-     <section id="section1" class="home">
+     <section id="section4" class="home">
      	<%= render 'shared/card' %>
      </section>
 
-    <section id="section1" class="home">
+
+    <section id="section5" class="home">
         <div class="fondnewsletter">
+            <% flash.each do |message_type, message| %>
+                <div class="alert alert-<%= message_type %>"><%= message %></div>
+            <% end %>
             <%= render 'shared/newsletter' %>
         </div>
     </section>
@@ -31,3 +37,7 @@
 </div>
 
 <%= render 'shared/footer' %>
+
+<button type="button" id="monBouton" onclick="topFunction()"><%= image_tag 'arrow.png' %></button>
+
+

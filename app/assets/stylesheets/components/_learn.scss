@@ -1,5 +1,5 @@
 .titre-learn {
-  padding-top: 25px;
+  padding-top: 50px;
   text-align: center;
 }
 
@@ -7,13 +7,30 @@
   margin-top: 50px;
   display: flex;
   justify-content: space-between;
-  padding-bottom: 25px;
+  padding-bottom: 50px;
+}
+
+@media screen and (max-width: 700px){
+
+  .container-learn {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .learn-column-1 {
   display: inline-block;
   width: 25%;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 700px){
+
+  .learn-column-1{
+    display: flex;
+    flex-direction: column;
+    width:95%;
+  }
 }
 
 .learn-column-1 img {
@@ -23,13 +40,20 @@
 .learn-column-2 {
   display: inline-block;
   width: 50%;
-  margin: 0 auto;
-  text-align: center;
+}
+
+@media screen and (max-width: 700px){
+
+  .learn-column-2{
+    display: none
+}
 }
 
 .learn-column-2 img {
   max-width: 100%;
   display: block;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .fondlearn {

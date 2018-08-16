@@ -6,6 +6,14 @@
   transition: top 0.3s; /* Transition effect when sliding down (and up) */
 }
 
+#navbar a {
+  color: white;
+}
+
+#navbar a:hover {
+ color: #007BFF;
+}
+
 .navbar-brand img {
   max-height: 35px;
 }

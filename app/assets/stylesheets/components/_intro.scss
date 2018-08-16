@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 
@@ -6,49 +7,57 @@
 {
 display: flex;
   flex-direction:row;
+=======
+.container-intro {
+  display: flex;
+>>>>>>> master
   justify-content: space-between;
   margin-top: 50px;
-
 }
 
+<<<<<<< HEAD
 
 
 .intro h2
 {
 text-align: center;
+=======
+.intro h2 {
+	text-align: center;
+>>>>>>> master
 }
 
-
-.intro h3
-{  
+.intro h3 {
 display:inline-block;
-
 }
 
-
-
-.illustration
-{
-		
+.illustration {
 	width:40%;
 	display:inline-block;
+<<<<<<< HEAD
 
     
- }
- .illustration img
- {
- 	margin-top: 10px;
- 	width:100%;
- 	verticak-align:middle;
- 	 
+=======
+	vertical-align: middle;
+>>>>>>> master
  }
 
-.content
-{
-	margin-top: 25px;
+ .illustration img {
+ 	margin-top: 10px;
+ 	width:100%;
+<<<<<<< HEAD
+ 	verticak-align:middle;
+ 	 
+=======
+>>>>>>> master
+ }
+
+.content {
+	margin-top: 50px;
 	display:inline-block;
 	vertical-align: middle;
 	padding-left: 45px;
+<<<<<<< HEAD
     margin: 0 auto;
     padding-bottom: 25px;
     width: 50%;
@@ -86,3 +95,11 @@ float:left;
 .illustration img{display:flex; flex-direction: column; justify-content: center;}
 }
 
+=======
+  margin: 0 auto;
+  padding-bottom: 50px;
+  width: 50%;
+  text-align:justify;
+  text-justify: auto;
+}
+>>>>>>> master
