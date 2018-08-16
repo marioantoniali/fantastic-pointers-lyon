@@ -1,47 +1,29 @@
-.container-intro
-{
+.container-intro {
   display: flex;
-
   justify-content: space-between;
   margin-top: 50px;
-
 }
 
-
-
-.intro h2
-{
+.intro h2 {
 	text-align: center;
 }
 
-
-.intro h3
-{
+.intro h3 {
 display:inline-block;
-
 }
 
-
-
-.illustration
-{
-
+.illustration {
 	width:40%;
 	display:inline-block;
 	vertical-align: middle;
-
-
-
  }
- .illustration img
- {
+
+ .illustration img {
  	margin-top: 10px;
  	width:100%;
-
  }
 
-.content
-{
+.content {
 	margin-top: 50px;
 	display:inline-block;
 	vertical-align: middle;
@@ -51,4 +33,4 @@ display:inline-block;
   width: 50%;
   text-align:justify;
   text-justify: auto;
-  }
+}
