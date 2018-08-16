@@ -23,12 +23,12 @@
      	<%= render 'shared/card' %>
      </section>
 
-    <% flash.each do |message_type, message| %>
-      <div class="alert alert-<%= message_type %>"><%= message %></div>
-    <% end %>
-    
+
     <section id="section5" class="home">
         <div class="fondnewsletter">
+            <% flash.each do |message_type, message| %>
+                <div class="alert alert-<%= message_type %>"><%= message %></div>
+            <% end %>
             <%= render 'shared/newsletter' %>
         </div>
     </section>
