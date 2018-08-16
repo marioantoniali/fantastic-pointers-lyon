@@ -1,0 +1,19 @@
+#navbar {
+  background-color: #333; /* Black background color */
+  position: fixed; /* Make it stick/fixed */
+  top: -58px; /* Hide the navbar 50 px outside of the top view */
+  width: 100%; /* Full width */
+  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+}
+
+#navbar a {
+  color: white;
+}
+
+#navbar a:hover {
+ color: #007BFF;
+}
+
+.navbar-brand img {
+  max-height: 35px;
+}

@@ -1,0 +1,105 @@
+<<<<<<< HEAD
+
+
+
+
+.container-intro
+{
+display: flex;
+  flex-direction:row;
+=======
+.container-intro {
+  display: flex;
+>>>>>>> master
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+<<<<<<< HEAD
+
+
+.intro h2
+{
+text-align: center;
+=======
+.intro h2 {
+	text-align: center;
+>>>>>>> master
+}
+
+.intro h3 {
+display:inline-block;
+}
+
+.illustration {
+	width:40%;
+	display:inline-block;
+<<<<<<< HEAD
+
+    
+=======
+	vertical-align: middle;
+>>>>>>> master
+ }
+
+ .illustration img {
+ 	margin-top: 10px;
+ 	width:100%;
+<<<<<<< HEAD
+ 	verticak-align:middle;
+ 	 
+=======
+>>>>>>> master
+ }
+
+.content {
+	margin-top: 50px;
+	display:inline-block;
+	vertical-align: middle;
+	padding-left: 45px;
+<<<<<<< HEAD
+    margin: 0 auto;
+    padding-bottom: 25px;
+    width: 50%;
+    text-align:justify;
+    text-justify: auto;
+  }
+
+
+
+@media screen and (max-width: 480px)
+{
+.container-intro {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    justify-content: center;
+    padding-bottom: 20px;
+
+}
+
+.illustration {
+    margin: 0 auto;
+    width: 80%;
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+.content{display: flex; flex-direction: column;
+margin: 0;
+width: 100%; text-align:justify; text-justify:auto;
+float:left;
+}
+.illustration{display:flex; flex-direction: column; justify-content: center;}
+.illustration img{display:flex; flex-direction: column; justify-content: center;}
+}
+
+=======
+  margin: 0 auto;
+  padding-bottom: 50px;
+  width: 50%;
+  text-align:justify;
+  text-justify: auto;
+}
+>>>>>>> master
