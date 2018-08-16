@@ -18,6 +18,7 @@
   border: 1px solid #2D2D2D;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
+  width: 60%;
 }
 
 .input-group-btn {
@@ -33,4 +34,11 @@
 
 p {
   padding-top: 15px
+}
+
+@media only screen and (min-width: 500px) {
+
+  [class*="form-control"] {
+    width: 60%;
+  }
 }
