@@ -1,9 +1,23 @@
-class TwittersController < ApplicationController
-  def index
+class AdminController < ApplicationController
+  def dashboard
+  end
 
+  def scrapper
+    @recipients = Recipient.all
   end
 
   def twitter
-  	BotTwitter.new.perform
+    @tweets = Tweet.all
+    puts @tweets
+  end
+
+  def service_scrapper
+    Scrapper.new.perform
+    redirect_to admin_path
+  end
+
+  def service_twitter
+    BotTwitter.new.perform
+    redirect_to admin_path
   end
 end
