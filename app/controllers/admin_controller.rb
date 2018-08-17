@@ -8,7 +8,6 @@ class AdminController < ApplicationController
 
   def twitter
     @tweets = Tweet.all
-    puts @tweets
   end
 
   def service_scrapper
