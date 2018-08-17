@@ -38,7 +38,7 @@ Pour tester cette application, importez le dossier sur votre pc, en suivant les 
 
 
 ```sh
-$ git clone https://github.com/willyGitHub18/fantastic-pointers-lyon
+$ git clone [https://github.com/willyGitHub18/fantastic-pointers-lyon](https://github.com/willyGitHub18/fantastic-pointers-lyon)
 
 $ cd fantastic-pointers-lyon
 
