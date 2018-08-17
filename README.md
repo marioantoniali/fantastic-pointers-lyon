@@ -1,26 +1,30 @@
 # [Growth Hacking](https://fantastic-pointers.herokuapp.com/)
 
-### Présentation 
+### Présentation
 
 Voici notre site qui présente 3 Landing Pages.<br/>  
-Sur ces pages nous présentons la formation "The Hacking Project" pour différentes cibles : 
-- [le grand public](https://fantastic-pointers.herokuapp.com/), 
-- [les femmes](https://fantastic-pointers.herokuapp.com/?role=girl) 
-- [et les Lyonnais](https://fantastic-pointers.herokuapp.com/?role=lyon).<br/> 
+Sur ces pages nous présentons la formation "The Hacking Project" pour différentes cibles :
+- [le grand public](https://fantastic-pointers.herokuapp.com/),
+- [les femmes](https://fantastic-pointers.herokuapp.com/?role=girl)
+- [et les Lyonnais](https://fantastic-pointers.herokuapp.com/?role=lyon).<br/>
 Le but étant de donner envie de s'inscrire à la newsletter.
 
-### Description du projet 
+### Description du projet
 
 On utilise la gem 'twitter', elle permet de retrouver les tweets qui contiennent les mots clés (formation, dev). Suite à l'envoie de tweet on envoie un commentaire via la fonction 'update'.
 On utilise la fonction 'favorite' pour liker le tweet contenant les mots clés recherchés.<br/>
 
-Avec la gem 'gibbon' pour faire tourner 'MailChimp', on récupère les mails des persones inscrites afin de les stockers dans la base de données et s'en servir pour envoyer des newsletters.
+Avec la gem 'gibbon' pour faire tourner 'MailChimp', on récupère les mails des personnes inscrites afin de les stockers dans la base de données et s'en servir pour envoyer des newsletters.
 On scrape [cette page](http://www.cci.fr/web/organisation-du-reseau/sites-internet-et-courriels-des-c-r-ci)
+
+Google Analytics a été branché au site, ce qui permet de visualiser le taux de convertion de la page ou encore le trafic de la page (par exemple).
 
 On utilise la gem 'capybara' et la gem 'minitest', pour les tests.
 
+Nous avons créé un dashboard admin afin de gérer les opérations marketing (scrap, bots) depuis notre site [voici](https://fantastic-pointers.herokuapp.com/admin)
+
 ------------------------------
-### On utilise 
+### On utilise
 
 * ruby '2.5.1'
 * gem 'rails', '5.2.1'
@@ -32,7 +36,7 @@ On utilise la gem 'capybara' et la gem 'minitest', pour les tests.
 
 
 ------------------------------
-### Instructions 
+### Instructions
 
 Pour tester cette application, importez le dossier sur votre pc, en suivant les instructions suivantes :
 
@@ -46,7 +50,7 @@ $ rails db:migrate
 
 $ rails server
 ```
-### La structure de l'appli 
+### La structure de l'appli
 
 ```
 ├── app
