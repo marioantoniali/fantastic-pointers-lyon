@@ -50,7 +50,7 @@ display:inline-block;
   margin: 0 auto;
   width: 80%;
   display: inline-block;
-  margin: 20px;
+  margin-bottom: 20px;
   text-align: center;
 }
 
@@ -59,6 +59,7 @@ display:inline-block;
   margin: 0;
   width: 100%; text-align:justify; text-justify:auto;
   float:left;
+  padding-left: 0px;
 }
 .illustration {
   display:flex; flex-direction: column; justify-content: center;
